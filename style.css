@@ -1,0 +1,61 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Gudea&family=Rancho&display=swap');
+
+body {
+  background-image: url("https://cdn.glitch.com/beabb61d-7440-4078-9aaa-9d0847f3640e%2FSeattle%20Ferris%20Wheel%20copy.jpg?v=1590855006085");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  opacity: 0.75;
+  font-family: 'Gudea', sans-serif;
+  text-align: center;
+  color: #607787;
+}
+
+h1 {
+  padding-top: 5%;
+  font-family: 'Rancho', cursive;
+  font-weight: 900;
+  text-align: center;
+  color: #ffe6cc;
+}
+
+.card-body {
+  background-color: #b35064;
+  color: #ffe6cc;
+  border: 2px solid #607787;
+}
+
+.col-sm-6, .col-sm-3 {
+  padding: 5%;
+}
+
+
+.btn-block {
+  background-color: #b35064;
+  color: #ffe6cc;
+  border: 2px solid #607787;
+  transition-duration: 0.4s;
+}
+
+.btn-block:hover {
+  background-color: #ffe6cc;
+  color: #b35064;
+  border: 2px solid #607787;
+}
+
+.btn-block:active {
+  background-color: #ffe6cc;
+  color: #b35064;
+  box-shadow: 0 5px #607787;
+  transform: translateY(4px);
+}
+
+/* .strikethrough {
+  background-color: #b35064;
+  color: #ffe6cc;
+  text-decoration: line-through;
+  border: 2px solid #607787;
+  transition-duration: 0.4s;
+} */
